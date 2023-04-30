@@ -13,7 +13,24 @@
   <body>
     <main>
         <!--<h1>loading</h1>
-<div role="progressbar" class="marquee"></div>-->
+<div role="progressbar" class="marquee"></div>
+<a href="#dialog-demo">Open Dialog</a>-->
+
+<div class="window active is-bright" id="dialog-demo" role="dialog" aria-labelledby="dialog-title">
+  <div class="title-bar">
+    <div class="title-bar-text" id="dialog-title">Wait</div>
+    <!--<div class="title-bar-controls">
+      <button aria-label="Close" onclick="history.back()"></button>
+    </div>--<
+  </div>
+  <div class="window-body has-space">
+    <h2 class="instruction instruction-primary">Loading (Part 2 of 2)...</h2>
+    <div role="progressbar" class="marquee"></div>
+  </div>
+  <footer style="text-align: right">
+    <button onclick="history.back()">Cancel</button>
+  </footer>
+</div>
    </main>
 	<!--<script src="index.js"></script>-->
   </body>
